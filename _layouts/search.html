@@ -16,12 +16,12 @@ layout: default
                 {% if page.is_topic %}
                 <b>Keywords</b>
                 {% else %}
-                Keywords
+                <b>Keywords</b>
                 {% endif %}
             </label>
             <div class="col-10">
                 <input type="text" class="form-control" id="keywords" aria-describedby="help"
-                       placeholder="Search" {% if page.is_topic %}value="news" {% endif %}/>
+                       placeholder="GAA matches" {% if page.is_topic %}value="Hurling matches" {% endif %}/>
                 <small class="form-text text-muted">Keywords as if actually searching YouTube.</small>
             </div>
         </div>

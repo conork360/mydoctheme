@@ -20,8 +20,8 @@ const geofind = (function () {
 
         // Coords are centered near New York, completely arbitrary.
         mapCenterCoords: {
-            lat: 40.697,
-            lng: -74.259
+            lat: 51.899207,
+            lng: -8.469223
         },
 
         mapMarkerWidth: 20,
