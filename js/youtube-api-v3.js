@@ -40,4 +40,4 @@ let youtube = (function () {
     };
     return module;
 }());
-youtube.setDefaultKey("AIzaSyCGWanOEMEgdHqsxNDaa_ZXTZ6hoYQrnAI");
+youtube.setDefaultKey("AIzaSyCK-oc52cHqJ565VIQSGC918ymp1jRWMxM");
