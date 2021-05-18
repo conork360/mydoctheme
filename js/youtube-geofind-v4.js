@@ -662,7 +662,7 @@ const geofind = (function () {
                     const html = "<strong>Quota Exceeded</strong> " +
                         "The daily API quota of 1,000,000 units has been reached for this application. " +
                         "This quota resets at midnight Pacific Time (PT) as per the Google Developers Console. " +
-                        "See more detail here with <a target='_blank' href='https://github.com/mattwright324/youtube-geofind/issues/11' rel='noopener'>issue #11</a>.";
+                        "See more detail here with <a target='_blank' href='https://www.youtube.com/channel/UCL5DoP90k7pkEIJ12lEDFDg' rel='noopener'>issue #11</a>.";
 
                     this.displayMessage('alert-warning', html);
                 } else {
