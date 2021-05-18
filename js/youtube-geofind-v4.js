@@ -1135,9 +1135,9 @@ const geofind = (function () {
                 "<div class='column'>" +
                 listOpenInMap +
                 "<div class='row' style='margin:0'>" +
-                "<a class='openInMap' target='_blank' href='https://mattw.io/youtube-metadata?submit=true&amp;url=https://youtu.be/" + video.id + "' rel='noopener'>" +
+                "<a class='openInMap' target='_blank' href='https://www.youtube.com/channel/UCL5DoP90k7pkEIJ12lEDFDg"  + "' rel='noopener'>" +
                 "<div>" +
-                "<span style='vertical-align:middle'>View metadata</span>" +
+                "<span style='vertical-align:middle'>View the best YouTube Channel</span>" +
                 "<img src='./img/metadata.png' width='14' style='margin-left:4px' alt='youtube metadata icon' >" +
                 "</div>" +
                 "</a>" +
