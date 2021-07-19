@@ -631,7 +631,7 @@ const geofind = (function () {
                 if (controls.checkSyndicated.is(":checked")) {
                     request.videoSyndicated = "true";
                 }
-                
+
                 const duration = controls.comboDuration.find(":selected").val();
                 if (duration !== "any") {
                     request.videoDuration = duration;
@@ -1243,6 +1243,18 @@ const geofind = (function () {
                     internal.reverseGeocode(internal.map.getCenter());
                 });
             }
+        },
+        
+        randomLocation: function () {
+            const randomCoords = CITIES[Math.trunc(Math.random() * CITIES.length)];
+
+            defaults.mapCenterCoords = {
+                lat: randomCoords[0],
+                lng: randomCoords[1]
+            }
+
+            internal.setMapCenter(randomCoords[0], randomCoords[1]);
+            internal.reverseGeocode(internal.map.getCenter());
         },
 
         openInMap: function (videoId) {
