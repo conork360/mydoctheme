@@ -15,13 +15,15 @@ const geofind = (function () {
     const hour = 60 * 60 * 1000;
     const day = hour * 24;
 
+    const randomCoords = CITIES[Math.trunc(Math.random() * CITIES.length)];
+
     const defaults = {
         animationMs: 250,
 
         // Coords are centered near New York, completely arbitrary.
         mapCenterCoords: {
-            lat: 51.899207,
-            lng: -8.469223
+            lat: randomCoords[0],
+            lng: randomCoords[1]
         },
 
         mapMarkerWidth: 20,
